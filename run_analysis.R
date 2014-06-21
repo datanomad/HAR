@@ -95,16 +95,4 @@ tidydata2 <- dcast(tidymelt1, subject + activity ~ variable, mean)
 ## Save the dataset to a text file (in the working directory):
 write.csv(tidydata2, "~/tidydata.txt", row.names = FALSE)
 
-## Create a codebook:
-
-
-
-
-
-
-
-
-
-
-
 
